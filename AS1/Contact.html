@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="City Guides">
+	<meta name="keywords" content="Dublin, London, Paris">
+	<meta name="author" content="Aoife Gannon">
+	<title>Asignment 1</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+</head>
+<body class="contactpage">
+
+<header>
+	<p id="title">City Guide</p>
+	<ul>
+		<li><a href="Index.html">Home</a></li>
+		<li>
+			<a href="#">Cities ▸</a>
+			<ul class="dropdown">
+				<li><a href="Dublin.html">Dublin</a></li>
+				<li><a href="London.html">London</a></li>
+				<li><a href="Paris.html">Paris</a></li>
+			</ul>
+		</li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>
+</header>
+
+
+<main class="content-wrapper"></main>
+<div class="contact">
+	<h1 class="contactheading">Contact Us</h1>
+	<form>
+		<label for="fname">First Name</label>
+		<input type="text" id="fname" name="Firstname" placeholder="Your name..">
+
+		<label for="sname">Last Name</label>
+		<input type="text" id="sname" name="Sirname" placeholder="Your last name..">
+
+		<label for="email">Email</label>
+		<input type="text" id="emial" name="Emial" placeholder="Your Email..">
+
+		<label for="country">Country</label>
+		<select id="country">
+			<option value="Ireland">Ireland</option>
+			<option value="England">England</option>
+			<option value="France">France</option>
+			<option value="USA">USA</option>
+			<option value="Australia">Australia</option>
+			<option value="New Zeland">New Zeland</option>
+		</select>
+
+		<label for="subject">Subject</label>
+		<textarea id="subject" name="Subject" placeholder="Write your questions in here.." style="height: 100px;"></textarea>
+
+		<input type="submit" name="Submit">
+
+	</form>
+</div>
+
+
+<footer class="contactfooter"><span>&copy; 2025 City Guide. All Rights Reserved</span></footer>
+
+</body>
+</html>
